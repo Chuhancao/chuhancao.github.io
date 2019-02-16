@@ -1,0 +1,28 @@
+@import 'variable';
+
+li a {
+  color: $menu-color;
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.title h1{
+  background: url(images/hotel.jpg);
+  background-size: cover;
+  width: 100%;
+  font-family: futura;
+  font-size: 2.5rem
+  font-weight:bold;
+  height: 500px;
+  margin: 0 0 0 0;
+  position: relative;
+  float: left;
+}
+.title {
+  color: $menu-color;
+  margin: 0;
+  position: absolute;
+  top: 92%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
