@@ -3,3 +3,68 @@ li a {
   font-family: Futura;
   font-weight: bold;
   font-size: 1.5rem; }
+
+.branding .title {
+  position: relative;
+  text-align: center; }
+
+.title h1 {
+  text-align: center;
+  font-style: bold;
+  font-size: 3.5rem;
+  width: 80%;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.3rem;
+  width: 80%;
+  color: #ffffff;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 0 0 0; }
+
+.container h1 {
+  color: #63694E;
+  text-align: center;
+  font-size: 1.5rem; }
+
+.container p {
+  text-align: justify; }
+
+.link {
+  font-family: futura;
+  text-align: center; }
+
+.link a {
+  color: #63694E;
+  text-decoration: underline; }
+
+.social {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.ins {
+  margin-left: 40px; }
+
+footer p {
+  font-family: futura;
+  color: #050238;
+  text-align: center; }
+
+footer a {
+  text-align: right;
+  margin-bottom: 30px;
+  margin-right: 30px; }

@@ -1,28 +1,76 @@
 @import 'variable';
-
+//menu
 li a {
   color: $menu-color;
   font-family: Futura;
   font-weight: bold;
   font-size: 1.5rem;
 }
-.title h1{
-  background: url(images/hotel.jpg);
-  background-size: cover;
-  width: 100%;
-  font-family: futura;
-  font-size: 2.5rem
-  font-weight:bold;
-  height: 500px;
-  margin: 0 0 0 0;
+//header Picture
+.branding .title{
   position: relative;
-  float: left;
+  text-align: center;
 }
-.title {
+.title h1{
+  text-align: center;
+  font-style: bold;
+  font-size: 3.5rem;
+  width: 80%;
   color: $menu-color;
-  margin: 0;
   position: absolute;
-  top: 92%;
-  left: 49%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
+}
+h2{
+  text-align: center;
+  font-style:italic;
+  font-size: 1.3rem;
+  width: 80%;
+  color: $menu-color;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+//main room 1&2
+.container{
+  margin-top:30px;
+  margin-bottom: 30px;
+  padding:0 0 0 0;
+}
+.container h1{
+  color: $room-header;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.container p{
+  text-align: justify;
+}
+.link{
+  font-family: futura;
+  text-align: center;
+}
+.link a{
+  color: $room-header;
+  text-decoration: underline;
+}
+//footer
+.social{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ins{
+  margin-left: 40px;
+}
+footer p{
+  font-family: futura;
+  color: $footer;
+  text-align: center;
+}
+footer a{
+  text-align: right;
+  margin-bottom: 30px;
+  margin-right: 30px;
 }
