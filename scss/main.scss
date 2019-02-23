@@ -1,24 +1,21 @@
 @import 'variable';
 //header Picture
-.navbar ul{
 
-}
 .navbar-toggler {
   border:0;
 }
 .branding .title{
-  text-align: center;
+  text-align:$text-style;
 }
 .title h1{
-  text-align: center;
+  text-align: $text-style;
   position: absolute;
   top: 300px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 h2{
-  text-align: center;
-  width: 80%;
+  text-align: $text-style;
   position: absolute;
   top: 440px;
   left: 50%;
@@ -26,17 +23,17 @@ h2{
 }
 //main room 1&2
 .container h1{
-  text-align: center;
+  text-align: $text-style;
 }
 .container p{
   text-align: justify;
 }
 .link{
-  text-align: center;
+  text-align: $text-style;
 }
 //footer
 .social{
-  text-align: center;
+  text-align: $text-style;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -44,7 +41,7 @@ h2{
   margin-left: 40px;
 }
 footer p{
-  text-align: center;
+  text-align: $text-style;
 }
 footer a{
   text-align: right;
@@ -54,22 +51,18 @@ footer a{
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-
-  .container {
-  background-color: yellow;
-  }
   .img-responsive {
 
   }
   .title h1{
-    text-align: center;
+    text-align: $text-style;
     position: absolute;
     top: 300px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   h2{
-    text-align: center;
+    text-align: $text-style;
     width: 80%;
     position: absolute;
     top: 450px;
@@ -83,22 +76,18 @@ footer a{
 
 // // Medium devices (tablets, 768px and up)
 @media (min-width: 768px){
-  .container {
-    background-color: black;
-  }
 .col-lg-6 h1{
   margin-top: 30px;
 }
 .title h1{
-  text-align: center;
+  text-align: $text-style;
   position: absolute;
   top: 500px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 h2{
-  text-align: center;
-  width: 80%;
+  text-align: $text-style;
   position: absolute;
   top: 630px;
   left: 50%;
@@ -108,19 +97,15 @@ h2{
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px){
-  .container{
-    background:pink;
-  }
   .title h1{
-    text-align: center;
+    text-align: $text-style;
     position: absolute;
     top: 690px;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   h2{
-    text-align: center;
-    width: 80%;
+    text-align: $text-style;
     position: absolute;
     top: 780px;
     left: 50%;

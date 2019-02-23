@@ -1,6 +1,8 @@
 $menu-color:#ffffff;
 $room-header:#63694E;
 $footer:#050238;
+$font-size:1.5rem;
+$text-style:center;
 //menu
 .topnav .icon {
   display: none;
@@ -9,7 +11,7 @@ li a {
   color: $menu-color;
   font-family: Futura;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: $font-size;
 }
 //header
 .title h1{
