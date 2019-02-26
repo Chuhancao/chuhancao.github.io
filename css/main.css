@@ -1,5 +1,12 @@
+.navbar-toggler {
+  border: 0; }
+
 .topnav .icon {
   display: none; }
+
+.img-fluid {
+  width: 100%;
+  display: block; }
 
 li a {
   color: #ffffff;
@@ -7,16 +14,29 @@ li a {
   font-weight: bold;
   font-size: 1.5rem; }
 
+.branding .title {
+  text-align: center; }
+
 .title h1 {
   font-weight: bolder;
   font-size: 3.5rem;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 h2 {
   font-style: italic;
   font-size: 1.3rem;
   font-weight: 400;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  top: 440px;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .container {
   margin-top: 30px;
@@ -24,12 +44,14 @@ h2 {
   padding: 0 0 0 0; }
 
 .container h1 {
-  font-family: futura;
-  font-weight: bold;
+  text-align: center;
   color: #63694E;
-  font-size: 1.5rem; }
+  font-size: 2rem;
+  font-style: Futura;
+  font-weight: bold; }
 
 .container p {
+  text-align: justify;
   font-family: futura;
   color: #63694E;
   font-size: 1rem; }
@@ -40,39 +62,7 @@ h2 {
 
 .link a {
   color: #63694E;
-  text-decoration: underline; }
-
-footer p {
-  font-family: futura;
-  color: #050238; }
-
-.navbar-toggler {
-  border: 0; }
-
-.branding .title {
-  text-align: center; }
-
-.title h1 {
-  text-align: center;
-  position: absolute;
-  top: 300px;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-h2 {
-  text-align: center;
-  position: absolute;
-  top: 440px;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.container h1 {
-  text-align: center; }
-
-.container p {
-  text-align: justify; }
-
-.link {
+  text-decoration: underline;
   text-align: center; }
 
 .social {
@@ -84,12 +74,31 @@ h2 {
   margin-left: 40px; }
 
 footer p {
-  text-align: center; }
+  text-align: center;
+  font-family: futura;
+  color: #050238; }
 
 footer a {
   text-align: right;
   margin-bottom: 30px;
   margin-right: 30px; }
+
+@media (max-width: 575.98px) {
+  .title h1 {
+    text-align: center;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  h2 {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .col-lg-6 h1 {
+    margin-top: 30px; } }
 
 @media (min-width: 576px) {
   .title h1 {

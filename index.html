@@ -43,7 +43,12 @@
         </h1>
       </div>
       <div class="branding">
-      <img class="img-responsive" src="images/hotel.jpg" alt="hotel" width="100%;">
+      <!-- <img class="img-responsive" src="images/hotel.jpg" alt="hotel" width="100%;"> -->
+<picture>
+  <source media="(min-width: 650px)" srcset="images/hotel.jpg">
+  <source media="(min-width: 465px)" srcset="images/mobile.png">
+  <img src="images/hotel.jpg" class="img-fluid">
+</picture>
         <h2>A meticulously restored heritage building in a former godown on the bank if the Singapore River in Robertson Quay</h2>
               </div>
     </div>
