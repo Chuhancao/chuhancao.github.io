@@ -1,2 +1,2 @@
 # midterm
-chuhan cao's midter project
+chuhan cao's midterm project
